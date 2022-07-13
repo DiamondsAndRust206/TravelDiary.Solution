@@ -9,7 +9,7 @@ namespace TravelDiary.Controllers
     [Route("/")]
     public ActionResult Index()
     {
-      Place starterItem = new Place("Add first place to Places Iv been");
+      Place starterPlace = new Place("Add first place to Places Iv been");
       return View(starterPlace);
     }
 

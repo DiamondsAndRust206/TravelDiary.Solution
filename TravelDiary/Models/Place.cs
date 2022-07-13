@@ -4,12 +4,12 @@ namespace TravelDiary.Models
 {
   public class Place
   {
-    public string Description { get; set; }
+    public string CityName { get; set; }
     private static List<Place> _instances = new List<Place> {};
 
-    public Place (string description)
+    public Place (string cityName)
     {
-      Description = description;
+      CityName = cityName;
       _instances.Add(this);
     }
 
